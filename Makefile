@@ -1,7 +1,7 @@
 .PHONY: help install dev-install start start-dev stop clean build
 
 help: ## 显示帮助信息
-	@echo "wx-dump-plus 项目管理"
+	@echo "wxdump 项目管理"
 	@echo "可用命令："
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2}'
 

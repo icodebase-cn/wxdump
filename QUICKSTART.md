@@ -1,4 +1,4 @@
-# wx-dump-plus 快速开始指南
+# wxdump 快速开始指南
 
 ## 🎯 一键启动
 
@@ -6,15 +6,15 @@
 
 1. **克隆项目**
    ```cmd
-   git clone https://github.com/baiyajin/wx-dump-plus.git
-   cd wx-dump-plus
+   git clone https://github.com/icodebase-cn/wxdump.git
+   cd wxdump
    ```
 
 2. **一键启动**
    ```cmd
    # 生产环境启动
    start.bat
-   
+
    # 开发环境启动
    start-dev.bat
    ```
@@ -27,8 +27,8 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/baiyajin/wx-dump-plus.git
-   cd wx-dump-plus
+   git clone https://github.com/icodebase-cn/wxdump.git
+   cd wxdump
    ```
 
 2. **添加执行权限**
@@ -40,7 +40,7 @@
    ```bash
    # 生产环境启动
    ./start.sh
-   
+
    # 开发环境启动
    ./start-dev.sh
    ```
@@ -149,5 +149,5 @@ npm install -g pnpm
 - 查看详细文档: [README.md](README.md)
 - 后端文档: [py/README.md](py/README.md)
 - 前端文档: [web/README.md](web/README.md)
-- 问题反馈: [Issues](https://github.com/baiyajin/wx-dump-plus/issues)
-- QQ技术群: 860104909
+- 问题反馈: [Issues](https://github.com/icodebase-cn/wxdump/issues)
+- 微信号: qianji_ai

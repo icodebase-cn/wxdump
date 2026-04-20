@@ -1,4 +1,4 @@
-# wx-dump-plus Python 后端
+# wxdump Python 后端
 
 基于 [PyWxDump](https://github.com/xaoyaoo/PyWxDump) 的优化升级版本，提供微信数据获取、解密、分析等功能。
 
@@ -19,11 +19,11 @@
 pip install uv
 
 # 克隆项目
-git clone https://github.com/baiyajin/wx-dump-plus.git
-cd wx-dump-plus/py
+git clone https://github.com/icodebase-cn/wxdump.git
+cd wxdump/py
 
 # 安装依赖
-uv sync --index-url https://mirrors.aliyun.com/pypi/simple 
+uv sync --index-url https://mirrors.aliyun.com/pypi/simple
 
 # 运行程序
 uv run main.py
@@ -33,8 +33,8 @@ uv run main.py
 
 ```bash
 # 克隆项目
-git clone https://github.com/baiyajin/wx-dump-plus.git
-cd wx-dump-plus/py
+git clone https://github.com/icodebase-cn/wxdump.git
+cd wxdump/py
 
 # 创建虚拟环境
 python -m venv .venv
@@ -52,8 +52,8 @@ python main.py
 
 ```bash
 # 克隆项目
-git clone https://github.com/baiyajin/wx-dump-plus.git
-cd wx-dump-plus/py
+git clone https://github.com/icodebase-cn/wxdump.git
+cd wxdump/py
 
 # 安装为可编辑包
 pip install -e .
@@ -223,8 +223,8 @@ uv pip install dist/*.whl
 
 如果遇到问题，请：
 1. 查看 [FAQ](doc/FAQ.md)
-2. 提交 [Issue](https://github.com/baiyajin/wx-dump-plus/issues)
-3. 加入QQ群：860104909
+2. 提交 [Issue](https://github.com/icodebase-cn/wxdump/issues)
+3. 微信号：qianji_ai
 
 ## 📄 许可证
 
@@ -232,4 +232,4 @@ uv pip install dist/*.whl
 
 ## 🙏 致谢
 
-感谢 [@xaoyaoo](https://github.com/xaoyaoo) 的 [PyWxDump](https://github.com/xaoyaoo/PyWxDump) 项目提供的核心功能。
+感谢 [@xaoyaoo](https://github.com/xaoyaoo) 的 [PyWxDump](https://github.com/xaoyaoo/PyWxDump) 和 [@baiyajin](https://github.com/baiyajin) 的 [wx-dump-plus](https://github.com/baiyajin/wx-dump-plus) 项目提供的核心功能。

@@ -1,7 +1,7 @@
 .PHONY: help install dev-install run test clean build format lint
 
 help: ## 显示帮助信息
-	@echo "wx-dump-plus Python 后端"
+	@echo "wxdump Python 后端"
 	@echo "可用命令："
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2}'
 
@@ -56,4 +56,4 @@ install-system: ## 系统安装
 	pip install .
 
 uninstall: ## 卸载
-	pip uninstall wx-dump-plus -y
+	pip uninstall wxdump -y

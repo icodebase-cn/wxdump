@@ -1,4 +1,4 @@
-# wx-dump-plus
+# wxdump
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Vue](https://img.shields.io/badge/Vue-3.x-green.svg)](https://vuejs.org/)
@@ -7,37 +7,11 @@
 
 ---
 
-## 🚀 推荐使用新项目：wx-dump-4
-
-<div align="center">
-
-### ⭐ 全新版本，基于 Rust + Vue 3 构建，性能更优！
-
-<a href="https://github.com/baiyajin/wx-dump-4">
-  <img src="https://github.com/baiyajin/wx-dump-4/raw/main/logo.png" alt="wx-dump-4 Logo" width="200">
-</a>
-
-### [👉 立即前往 wx-dump-4 项目 👈](https://github.com/baiyajin/wx-dump-4)
-
-**wx-dump-4** 是使用 **Rust** 重写的全新版本，具有以下优势：
-
-🚀 **更高性能**：Rust 原生性能，内存安全  
-🔒 **更安全**：编译期安全检查，避免内存泄漏  
-📦 **更小体积**：单一可执行文件，无需 Python 环境  
-⚡ **更快启动**：启动速度更快，资源占用更少  
-🎯 **专注 4.0+**：专门针对微信 4.0+ 版本优化
-
-**建议新用户直接使用 [wx-dump-4](https://github.com/baiyajin/wx-dump-4)，老用户可继续使用本项目的 Python 版本。**
-
-</div>
-
----
-
 > 基于 [PyWxDump](https://github.com/xaoyaoo/PyWxDump) 和 [wxdump_web](https://github.com/xaoyaoo/wxdump_web) 的优化升级版本，集成了更多功能特性
 
 ## 📖 项目简介
 
-wx-dump-plus 是对原版 PyWxDump 和 wxdump_web 的全面优化升级版本，在保持原有核心功能的基础上，增加了更多实用功能和改进。本项目旨在提供更好的用户体验和更强大的微信数据管理能力。
+wxdump 是对原版 PyWxDump 和 wxdump_web 的全面优化升级版本，在保持原有核心功能的基础上，增加了更多实用功能和改进。本项目旨在提供更好的用户体验和更强大的微信数据管理能力。
 
 ## 📖 项目预览
 <img width="1912" height="924" alt="image" src="https://github.com/user-attachments/assets/4d9b8419-00e1-4dda-8f4e-99aedffdc00c" />
@@ -65,7 +39,7 @@ wx-dump-plus 是对原版 PyWxDump 和 wxdump_web 的全面优化升级版本，
 ## 🏗️ 项目结构
 
 ```
-wx-dump-plus/
+wxdump/
 ├── py/                    # Python后端
 │   ├── pywxdump/         # 核心功能模块
 │   │   ├── wx_core/      # 微信核心功能
@@ -102,8 +76,8 @@ wx-dump-plus/
 #### Windows
 ```cmd
 # 克隆项目
-git clone https://github.com/baiyajin/wx-dump-plus.git
-cd wx-dump-plus
+git clone https://github.com/baiyajin/wxdump.git
+cd wxdump
 
 # 一键启动（自动安装依赖并启动服务）
 start.bat
@@ -115,8 +89,8 @@ start-dev.bat
 #### Linux/Mac
 ```bash
 # 克隆项目
-git clone https://github.com/baiyajin/wx-dump-plus.git
-cd wx-dump-plus
+git clone https://github.com/baiyajin/wxdump.git
+cd wxdump
 
 # 添加执行权限
 chmod +x start.sh start-dev.sh

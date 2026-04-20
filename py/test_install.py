@@ -12,28 +12,28 @@ def test_imports():
     except ImportError as e:
         print(f"❌ pywxdump 导入失败: {e}")
         return False
-    
+
     try:
-        from pywxdump import get_wx_info, batch_decrypt, start_server
+        from pywxdump import batch_decrypt, get_wx_info, start_server
         print("✅ 核心函数导入成功")
     except ImportError as e:
         print(f"❌ 核心函数导入失败: {e}")
         return False
-    
+
     try:
         import fastapi
         print(f"✅ FastAPI 导入成功，版本: {fastapi.__version__}")
     except ImportError as e:
         print(f"❌ FastAPI 导入失败: {e}")
         return False
-    
+
     try:
         import uvicorn
         print(f"✅ Uvicorn 导入成功，版本: {uvicorn.__version__}")
     except ImportError as e:
         print(f"❌ Uvicorn 导入失败: {e}")
         return False
-    
+
     return True
 
 def test_cli():
@@ -47,13 +47,13 @@ def test_cli():
         return False
 
 if __name__ == "__main__":
-    print("🔍 测试 wx-dump-plus 安装...")
+    print("🔍 测试 wxdump 安装...")
     print("=" * 50)
-    
+
     success = True
     success &= test_imports()
     success &= test_cli()
-    
+
     print("=" * 50)
     if success:
         print("🎉 所有测试通过！安装成功！")

@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "wx-dump-plus"
+name = "wxdump"
 version = "3.1.45"
 description = "微信信息获取工具 - PyWxDump优化升级版"
 readme = "README.md"
@@ -66,15 +66,15 @@ build = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/baiyajin/wx-dump-plus"
-Documentation = "https://github.com/baiyajin/wx-dump-plus#readme"
-Repository = "https://github.com/baiyajin/wx-dump-plus.git"
-Issues = "https://github.com/baiyajin/wx-dump-plus/issues"
-Changelog = "https://github.com/baiyajin/wx-dump-plus/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/icodebase-cn/wxdump"
+Documentation = "https://github.com/icodebase-cn/wxdump#readme"
+Repository = "https://github.com/icodebase-cn/wxdump.git"
+Issues = "https://github.com/icodebase-cn/wxdump/issues"
+Changelog = "https://github.com/icodebase-cn/wxdump/blob/main/CHANGELOG.md"
 
 [project.scripts]
 wxdump = "pywxdump.cli:console_run"
-wx-dump-plus = "main:main"
+wxdump = "main:main"
 
 [tool.setuptools]
 packages = [

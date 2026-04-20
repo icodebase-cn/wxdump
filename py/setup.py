@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -34,14 +34,14 @@ install_requires = [
 ]
 
 setup(
-    name="wx-dump-plus",
+    name="wxdump",
     author="baiyajin",
     version=version,
     author_email="baiyajin@example.com",
     description="微信信息获取工具 - PyWxDump优化升级版",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/baiyajin/wx-dump-plus",
+    url="https://github.com/icodebase-cn/wxdump",
     license='MIT',
 
     # packages=find_packages(exclude=[]),

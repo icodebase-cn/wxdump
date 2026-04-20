@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting wx-dump-plus..."
+echo "Starting wxdump..."
 echo
 
 # 检查是否安装了uv
@@ -21,5 +21,5 @@ echo "Installing dependencies..."
 uv sync
 
 # 运行程序
-echo "Starting wx-dump-plus..."
+echo "Starting wxdump..."
 uv run main "$@"

@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 echo ========================================
-echo    wx-dump-plus 开发模式启动脚本
+echo    wxdump 开发模式启动脚本
 echo ========================================
 echo.
 
@@ -53,13 +53,13 @@ echo 按 Ctrl+C 停止所有服务
 echo ========================================
 
 REM 启动后端服务
-start "wx-dump-plus 后端" cmd /k "cd /d %~dp0py && uv run main.py"
+start "wxdump 后端" cmd /k "cd /d %~dp0py && uv run main.py"
 
 REM 等待2秒让后端启动
 timeout /t 2 /nobreak >nul
 
 REM 启动前端服务
-start "wx-dump-plus 前端" cmd /k "cd /d %~dp0web && pnpm run dev"
+start "wxdump 前端" cmd /k "cd /d %~dp0web && pnpm run dev"
 
 echo.
 echo [成功] 开发服务启动完成！
